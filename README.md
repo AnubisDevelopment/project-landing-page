@@ -1,1 +1,3 @@
 # project-landing-page
+
+Will be working on landing page as a project. Looking forward to displaying my flexbox skills in conjunction with some nasty html wizardry. Looking to replicate the design as close as possible. Exciting as it is similar work that I have experienced doing with content management systems in designing from a figma or image. Will update with challenges and what I look forward to improving on...

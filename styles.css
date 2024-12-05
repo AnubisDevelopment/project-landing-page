@@ -1,0 +1,111 @@
+/*Boilerplate css styling */
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+p,h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+    padding: 0px;
+}
+
+ul,
+li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+/*Global classes */
+.blue-bg {
+    background-color: #1f2937;
+}
+
+section {
+    
+}
+
+.global-container {
+    max-width: 500px;
+    background-color: antiquewhite;
+    margin: 0px auto;
+}
+/*Header*/
+.header-container {
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10px 0px;
+    align-items: center;
+}
+
+.header-list {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 5px;
+}
+/*Hero */
+.hero-container {
+    display: flex;
+    gap: 10px;
+    min-height: 250px;
+    align-items: center;
+}
+.left-hero,
+.right-hero {
+    flex: 1;
+    border: soli;
+    
+}
+.hero-img {
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+
+}
+.left-hero p {
+    padding-top: 5px;
+}
+/*Section 3 */
+
+
+.container-three {
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0px;
+}
+
+.h3-sec-three {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 1.3em;
+}
+
+.ul-sec-three {
+    display: flex;
+}
+
+.ul-sec-three li p {
+    text-align: center;
+    font-size: .9em;
+}
+
+.img-one {
+    height: 100px;
+    width: 115px;
+    border-radius: 5px;
+    border: solid rgb(115, 115, 255);
+}
+
+/*Section 4 quote */
