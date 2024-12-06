@@ -72,8 +72,6 @@ h1 {
 .left-hero,
 .right-hero {
     flex: 1;
-    border: soli;
-    
 }
 .hero-img {
     height: 100%;
@@ -130,7 +128,6 @@ h1 {
     height: 110px;
     width: 115px;
     border-radius: 5px;
-    border: solid rgb(115, 115, 255);
 }
 
 /*Section 4 quote */
