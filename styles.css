@@ -31,7 +31,6 @@ section {
 
 .global-container {
     max-width: 500px;
-    background-color: antiquewhite;
     margin: 0px auto;
 }
 /*Header*/
@@ -109,3 +108,79 @@ section {
 }
 
 /*Section 4 quote */
+
+.grey-bg {
+    background-color: rgb(229, 227, 227);
+}
+
+.container-four {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 50vh;
+    padding: 20px;
+}
+
+.container-four p {
+    font-style: italic;
+    font-size: 1.2em;
+}
+
+.author-name {
+    margin-left: auto;
+    font-weight: 700;
+}
+/*Section Five Call to Action */
+
+.container-five {
+    height: 35vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.blue-sub-container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    min-height: 33%;
+    background-color: rgb(75, 174, 236);
+    border-radius: 5px;
+    padding: 35px;
+    color: whitesmoke;
+
+}
+
+.two-thirds {
+    flex: 1;
+}
+
+.two-thirds h3 {
+    font-size: 1em;
+}
+
+.two-thirds p {
+    font-size: .8em;
+}
+.sign-up-button {
+    color: whitesmoke;
+    background-color: transparent;
+    border: solid 2px;
+    padding: 3px 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+/* Section Six Footer */
+
+.container-six {
+
+    min-height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: whitesmoke;
+    font-size: .8em;
+}
+
